@@ -10,16 +10,16 @@ if (-not ([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdenti
 Clear-Host
 
 Write-Host ""
-Write-Host "  ╔══════════════════════════════════════╗" -ForegroundColor Cyan
-Write-Host "  ║                                      ║" -ForegroundColor Cyan
-Write-Host "  ║   " -ForegroundColor Cyan -NoNewline
+Write-Host "  +======================================+" -ForegroundColor Cyan
+Write-Host "  |                                      |" -ForegroundColor Cyan
+Write-Host "  |   " -ForegroundColor Cyan -NoNewline
 Write-Host "PC SETUP" -ForegroundColor White -NoNewline
-Write-Host "                              ║" -ForegroundColor Cyan
-Write-Host "  ║   " -ForegroundColor Cyan -NoNewline
+Write-Host "                              |" -ForegroundColor Cyan
+Write-Host "  |   " -ForegroundColor Cyan -NoNewline
 Write-Host "taizsys.xyz" -ForegroundColor DarkCyan -NoNewline
-Write-Host "                         ║" -ForegroundColor Cyan
-Write-Host "  ║                                      ║" -ForegroundColor Cyan
-Write-Host "  ╚══════════════════════════════════════╝" -ForegroundColor Cyan
+Write-Host "                         |" -ForegroundColor Cyan
+Write-Host "  |                                      |" -ForegroundColor Cyan
+Write-Host "  +======================================+" -ForegroundColor Cyan
 Write-Host ""
 
 # verification de l'OS
