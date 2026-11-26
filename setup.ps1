@@ -3,7 +3,7 @@ $ErrorActionPreference = "SilentlyContinue"
 # relancement en admin si necessaire
 if (-not ([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole(
     [Security.Principal.WindowsBuiltInRole]::Administrator)) {
-    Start-Process powershell -ArgumentList "-NoProfile -ExecutionPolicy Bypass -Command `"irm setup.taizsys.xyz | iex`"" -Verb RunAs
+    Start-Process powershell -ArgumentList "-NoProfile -ExecutionPolicy Bypass -Command `"irm raphael-jacquis.fr | iex`"" -Verb RunAs
     exit
 }
 
@@ -14,10 +14,10 @@ Write-Host "  +======================================+" -ForegroundColor Cyan
 Write-Host "  |                                      |" -ForegroundColor Cyan
 Write-Host "  |   " -ForegroundColor Cyan -NoNewline
 Write-Host "PC SETUP" -ForegroundColor White -NoNewline
-Write-Host "                              |" -ForegroundColor Cyan
+Write-Host "                           |" -ForegroundColor Cyan
 Write-Host "  |   " -ForegroundColor Cyan -NoNewline
-Write-Host "taizsys.xyz" -ForegroundColor DarkCyan -NoNewline
-Write-Host "                         |" -ForegroundColor Cyan
+Write-Host "raphael-jacquis.fr" -ForegroundColor DarkCyan -NoNewline
+Write-Host "                 |" -ForegroundColor Cyan
 Write-Host "  |                                      |" -ForegroundColor Cyan
 Write-Host "  +======================================+" -ForegroundColor Cyan
 Write-Host ""
